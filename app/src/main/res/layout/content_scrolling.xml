@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.xusy.casesearch.AddNewCase"
+    tools:showIn="@layout/activity_scrolling">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical">
+
+  <EditText
+      android:id="@+id/OurParties"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入当事人"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/OppositeParties"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入对方当事人"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/ResLitigiosa"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入争议标的"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/TrialNumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入审判案号"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/ExcuteNumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入执行案号"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/FilingTime"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入立案时间/yyyyMMdd"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/JudgeContactInfo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入法官联系方式"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/CourtDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入开庭时间/yyyyMMdd"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/Dicastery"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入开庭地点"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/FilingTime2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入立案时间/yyyyMMdd"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/ExecuteJudgeInfo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入法官联系方式"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/ContractNumber"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入合同号"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/ContractLife"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入合同有效期"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/TollCollectionManner"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入收费方式"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/Payment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入付费情况"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+
+  <EditText
+      android:id="@+id/Invoice"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="请输入发票情况"
+      android:inputType="text"
+      android:textColor="#555555"
+      android:textColorHint="#aaaaaa"
+      android:textSize="17sp" />
+ </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

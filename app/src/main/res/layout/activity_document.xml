@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xusy.casesearch.Document">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/UserPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/UserID"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:text="ID：001"
+                android:layout_gravity="fill"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <TextView
+                android:id="@+id/ProcessingNumber"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="0"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/DoneNumber"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:layout_gravity="fill"
+                android:ems="10"
+                android:text="0"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ProcessingItem"
+                android:layout_width="175dp"
+                android:layout_height="42dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="正在进行"
+                android:clickable="true"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/DoneItem"
+                android:layout_width="175dp"
+                android:layout_height="42dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="已完成"
+                android:clickable="true"
+                android:gravity="center"
+                android:textAlignment="center" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/classifyItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="分类检索" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_weight="0.95">
+
+                <TextView
+                    android:id="@+id/parties"
+                    android:layout_width="175dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="fill"
+                    android:ems="10"
+                    android:text="当事人"
+                    android:gravity="center"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/ReferenceNumber"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_gravity="fill"
+                    android:text="案号" />
+
+                <TextView
+                    android:id="@+id/Judge"
+                    android:layout_width="175dp"
+                    android:layout_height="110dp"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_gravity="fill"
+                    android:text="法官" />
+
+                <TextView
+                    android:id="@+id/Payment"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:text="付费情况" />
+            </GridLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="73dp">
+
+                <ImageButton
+                    android:id="@+id/addMoreCase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="280dp"
+                    app:srcCompat="@android:drawable/ic_menu_add" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
